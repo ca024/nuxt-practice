@@ -15,3 +15,8 @@ npm install
 ```bash
 npm run dev
 ```
+
+### Add Tailwind CSS
+```bash
+npm install @nuxtjs/tailwindcss
+```
