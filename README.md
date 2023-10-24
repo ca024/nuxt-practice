@@ -20,3 +20,4 @@ npm run dev
 ```bash
 npm install @nuxtjs/tailwindcss
 ```
+Add '@nuxtjs/tailwindcss' to the modules in nuxt.config.ts
