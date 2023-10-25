@@ -46,3 +46,6 @@ To create a dynamic and unique path, create a folder/file inside the pages folde
 ### Navigate using elements
 To navigate to a path using an element, use NuxtLink component and define the path on the attribute "to"
 If the path is dynamic, use navigateTo method instead of a NuxtLink component
+
+### Router-based nested components
+To render some components based on router, simply use NuxtPage component within the folder/file, the succeeding folder/file will render the component based on router match
