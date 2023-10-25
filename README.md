@@ -42,3 +42,7 @@ To create a dynamic and optional routing path, create a folder/file inside the p
 
 ### Add Unique Routing
 To create a dynamic and unique path, create a folder/file inside the pages folder and name the folder/file to the unique path enclosing dynamic parts in square bracket (e.g. [name]-[id])
+
+### Navigate using elements
+To navigate to a path using an element, use NuxtLink component and define the path on the attribute "to"
+If the path is dynamic, use navigateTo method instead of a NuxtLink component
