@@ -39,3 +39,6 @@ When the components is inside a nested folder of components folder, to use the c
 To create a static routing path, create a folder/file inside the pages folder and name the folder/file to the static path  
 To create a dynamic routing path, create a folder/file inside the pages folder and name the folder/file to the dynamic path enclosing it with square brackets  
 To create a dynamic and optional routing path, create a folder/file inside the pages folder and name the folder/file to the dynamic path enclosing it with double square brackets  
+
+### Add Unique Routing
+To create a dynamic and unique path, create a folder/file inside the pages folder and name the folder/file to the unique path enclosing dynamic parts in square bracket (e.g. [name]-[id])
