@@ -60,3 +60,10 @@ npm @pinia/nuxt
 Add '@pinia/nuxt' to the modules in nuxt.config.ts
 Create stores folder
 Add <my-store>.ts to define stores
+
+### Adding vuetify
+```bash
+npm i -D vuetify vite-plugin-vuetify
+npm i @mdi/font
+```
+Configure nuxt.config.ts refer to [this](https://vuetifyjs.com/en/getting-started/installation/#using-nuxt-3)
