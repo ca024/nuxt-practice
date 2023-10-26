@@ -52,3 +52,11 @@ To render some components based on router, simply use NuxtPage component within 
 
 ### Change page title
 Use useHead component and define title attribute
+
+### Adding pinia
+```bash
+npm @pinia/nuxt
+```
+Add '@pinia/nuxt' to the modules in nuxt.config.ts
+Create stores folder
+Add <my-store>.ts to define stores
