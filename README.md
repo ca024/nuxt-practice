@@ -49,3 +49,6 @@ If the path is dynamic, use navigateTo method instead of a NuxtLink component
 
 ### Router-based nested components
 To render some components based on router, simply use NuxtPage component within the folder/file, the succeeding folder/file will render the component based on router match
+
+### Change page title
+Use useHead component and define title attribute
